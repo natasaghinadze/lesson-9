@@ -1,0 +1,49 @@
+.main{
+    background-color: azure;
+}
+.div-navigation{
+    display:flex;
+    justify-content: space-around;
+}
+.nav-ul{
+    display: flex;
+    margin-top: 10px;
+}
+.nav-ul li{
+    margin-right: 49px;
+}
+.div-wraper{
+    display: flex;
+}
+.left-block{
+    max-width: 600px;
+    width: 100%;
+}
+.right-block{
+    max-width: 800px;
+    width: 100%;
+    margin-left: 305px;
+}
+.right-block img{
+    width: 100%;
+}
+.title1{
+    font-size: 78px;
+    margin-bottom: 42px;
+}
+.wave{
+    color: #fff;
+    font-size: 30px;
+    max-width: 264px;
+    height: 77px;
+    background-color: #3D37F1;
+    border-radius: 38px;
+    justify-content: center;
+    margin-top: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wavep{
+    margin-left: 25px;
+}
