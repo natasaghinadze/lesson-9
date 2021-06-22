@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .block1 {
+        width: 100%;
+    }
+    .block-wraper{
+        justify-content: center;
+    }
+    .block1:nth-child(4),
+    .block1:nth-child(5) {
+         margin-bottom: 60px;
+}
