@@ -102,6 +102,12 @@
     margin-top: 67px;
     margin-bottom: 60px;
 }
+.block1:nth-child(4),
+.block1:nth-child(5),
+.block1:nth-child(6) {
+    margin-top: 67px;
+    margin-bottom: 60px;
+}
 .block-wraper{
     justify-content: space-between;
     flex-wrap: wrap;
@@ -135,4 +141,11 @@
 }
 .we{
     margin-bottom: 21px;
+}
+.burger-bar{
+    display: flex;
+    display: none;
+    justify-content: flex-end;
+    color: #000;
+    font-size: 30px;
 }

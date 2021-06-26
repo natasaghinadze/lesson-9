@@ -1,11 +1,33 @@
+@media (max-width: 770px){
+    .nav-ul {
+        display: none;
+      }
+    .burger-bar{
+        display: block;
+      }
+
+    }
+@media (max-width: 500px) {
+    .div-wraper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-block,
+    .right-block{
+        width: 80%;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .left-block,
+    .right-block{
+        width: 100%;
+    }
+}
 
 
-
-
-
-
-
-@media (max-width: 480px) {
+@media (max-width: 758px) {
     .block1 {
         width: 100%;
     }
@@ -15,4 +37,5 @@
     .block1:nth-child(4),
     .block1:nth-child(5) {
          margin-bottom: 60px;
+} 
 }
